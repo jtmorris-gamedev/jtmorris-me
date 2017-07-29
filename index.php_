@@ -66,58 +66,57 @@
       </div>
       <!-- im thinking of a 2-3 colum unordered or ordered list of links traversing the excersices I am going to do. maybe include a short discription of what it is? -->
       <!-- decided to split the excercises up by chapter. 38 chapters total. -->
-      <!-- decided to use span elements to style certain parts of the chapter links-->
-      <div class="row" id="chapter-list-container">
+      <div class="row">
          <div class="col-md">
            <ul>
-             <li><a><span class="chapter-numbers">Chapter 1:</span> Introducing PHP</a></li>
-             <li><a><span class="chapter-numbers">Chapter 2:</span> Configuring My Enviornment</a></li>
-             <li><a><span class="chapter-numbers">Chapter 3:</span> PHP Basics</a></li>
-             <li><a><span class="chapter-numbers">Chapter 4:</span> Functions</a></li>
-             <li><a><span class="chapter-numbers">Chapter 5:</span> Arrays</a></li>
-             <li><a><span class="chapter-numbers">Chapter 6:</span> Object-Oriented PHP</a></li>
-             <li><a><span class="chapter-numbers">Chapter 7:</span> Advanced OOP Features</a></li>
-             <li><a><span class="chapter-numbers">Chapter 8:</span> Error and Exception Handling</a></li>
-             <li><a><span class="chapter-numbers">Chapter 9:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 10:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 11:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 12:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 13:</span> </a></li>
-
+             <li><a>Chapter 1: Introducing PHP</a></li>
+             <li><a>Chapter 2: </a></li>
+             <li><a>Chapter 3: </a></li>
+             <li><a>Chapter 4: </a></li>
+             <li><a>Chapter 5: </a></li>
+             <li><a>Chapter 6: </a></li>
+             <li><a>Chapter 7: </a></li>
+             <li><a>Chapter 8: </a></li>
+             <li><a>Chapter 9: </a></li>
+             <li><a>Chapter 10: </a></li>
+             <li><a>Chapter 11: </a></li>
+             <li><a>Chapter 12: </a></li>
+             <li><a>Chapter 13: </a></li>
 
            </ul>
          </div>
          <div class="col-md">
            <ul>
-             <li><a><span class="chapter-numbers">Chapter 14:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 15:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 16:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 17:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 18:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 19:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 21:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 22:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 23:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 24:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 25:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 26:</span> </a></li>
-             <li><a><span class="chapter-numbers">Chapter 27:</span> </a></li>
+
+             <li><a>Chapter 14: </a></li>
+             <li><a>Chapter 15: </a></li>
+             <li><a>Chapter 16: </a></li>
+             <li><a>Chapter 17: </a></li>
+             <li><a>Chapter 18: </a></li>
+             <li><a>Chapter 19: </a></li>
+             <li><a>Chapter 21: </a></li>
+             <li><a>Chapter 22: </a></li>
+             <li><a>Chapter 23: </a></li>
+             <li><a>Chapter 24: </a></li>
+             <li><a>Chapter 25: </a></li>
+             <li><a>Chapter 26: </a></li>
+
            </ul>
          </div>
          <div class="col-md">
            <ul>
-
-             <li><a><span class="chapter-numbers">Chapter 28</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 29:</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 30:</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 31:</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 32:</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 33:</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 34:</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 35:</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 36:</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 37:</span></a></li>
-             <li><a><span class="chapter-numbers">Chapter 38:</span></a></li>
+             <li><a>Chapter 27: </a></li>
+             <li><a>Chapter 28</a></li>
+             <li><a>Chapter 29: </a></li>
+             <li><a>Chapter 30: </a></li>
+             <li><a>Chapter 31: </a></li>
+             <li><a>Chapter 32: </a></li>
+             <li><a>Chapter 33: </a></li>
+             <li><a>Chapter 34: </a></li>
+             <li><a>Chapter 35: </a></li>
+             <li><a>Chapter 36: </a></li>
+             <li><a>Chapter 37: </a></li>
+             <li><a>Chapter 38: </a></li>
            </ul>
          </div>
 
