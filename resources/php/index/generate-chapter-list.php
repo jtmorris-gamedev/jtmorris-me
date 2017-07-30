@@ -1,10 +1,10 @@
 <div class="row" id="chapter-list-container">
 <?php
 require_once("C:\\xampp\\htdocs\\jtmorris-me\\resources\\php\\global\\global-variables.php");
-$chapterTitles = $jtmorrisLearnsPHPChapterTitles;
+//$book is currently a global variable in global-variables.php
 
   $NUM_COLUMNS=2;
-  $NUM_ITEMS_PER_COLUMN = count($chapterTitles)/$NUM_COLUMNS;
+  $NUM_ITEMS_PER_COLUMN = count($book)/$NUM_COLUMNS;
   $fileExtension="";
   $outputString="";
   $baseUrl="";
@@ -19,10 +19,10 @@ $chapterTitles = $jtmorrisLearnsPHPChapterTitles;
 
  for($column = 0; $column < $NUM_COLUMNS; $column++){
    $outputString=$outputString . "<div class=\"col-md\"><ul>";
-   for($chapterNum = $NUM_ITEMS_PER_COLUMN*$column; $chapterNum < $NUM_ITEMS_PER_COLUMN*($column+1)&& $chapterNum < count($chapterTitles); $chapterNum++){
-     $pageNameBase = strtolower(str_replace(" ", "-", $chapterTitles[$chapterNum]));
+   for($chapterNum = $NUM_ITEMS_PER_COLUMN*$column; $chapterNum < $NUM_ITEMS_PER_COLUMN*($column+1)&& $chapterNum < count($book); $chapterNum++){
+     $pageNameBase = strtolower(str_replace(" ", "-", $book[$chapterNum]));
      $finalUrl=$baseUrl.$pageNameBase.$fileExtension;
-     $outputString = $outputString . "<li><span class=\"chapter-items\">Chapter " . ($chapterNum+1) . "</span>&#58;&nbsp;<a href=\"#".$finalUrl."\">".$chapterTitles[$chapterNum]."</a></li>";
+     $outputString = $outputString . "<li><span class=\"chapter-items\">Chapter " . ($chapterNum+1) . "</span>&#58;&nbsp;<a href=\"#".$finalUrl."\">".$book[$chapterNum]."</a></li>";
    }
    $outputString= $outputString . "</ul></div>";
  }

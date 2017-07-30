@@ -25,7 +25,7 @@ $multipageWebsite=false; // generate this website as a multipage or signle page 
 
 //some more common static variables. when OOP is introduced and I play with it enough, I will most likely redesign the website's code again.
 $jtmorrisLearnsPHPDir = $fileDocumentRoot . "jtmorris-learns-php\\";
-$jtmorrisLearnsPHPChapterTitles= array(
+$book= array(
   "Introducing PHP",
   "Configuring My Enviornment",
   "PHP Basics",
