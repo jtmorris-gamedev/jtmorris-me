@@ -1,7 +1,0 @@
-sort-data-by-chapter-then-section-then-subsection
-chapter/
-       chapter-data.php
-       section/
-              section-data.php
-                subsection/
-                  subsection-data.php
