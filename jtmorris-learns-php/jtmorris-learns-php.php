@@ -6,14 +6,9 @@
 //this file should generate a bootstrap v4 two coulmn layout containeing each of the 38 links to the relative chapter pages.
 //page naming scheme take the chapter names from the book and replace spaces with dashes
 //this file should also conform to generating a single page website;
-  require_once("C:\\xampp\\htdocs\\jtmorris-me\\resources\\php\\global\\global-variables.php");
-$introductoryParagraphs = "this is an introductory Paragraph.";
-$chapterCommentary = "this is a commentary paragraph about the chapter";
-$problemsToSolve="this is a problem to solve";
-$problemCodeSamples = "this is a code sample to be solved";
-$problemCommentaryParagraph= "these are the problems I faced solving this problem";
-$solutionintroductoryParagraphs = "this is the introductory to the solution I came up with while solving this problem";
- ?>
+  require_once(getcwd()."\\resources\\php\\global\\global-variables.php");
+  include_once(getcwd()."\\jtmorris-learns-php\\data\\data-includes.php");
+
 
 <?php
   //$book is currently a global variable in global-variables.php
